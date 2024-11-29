@@ -21,7 +21,7 @@ public class CargarDatos {
     public static void agregarDatos() {
         try {
             File archivo = new File("Muestra.csv"); // Asegúrate de que el nombre del archivo sea correcto
-            System.out.println("Ruta del archivo: " + archivo.getAbsolutePath());
+            System.out.println(archivo.getAbsolutePath());
             FileReader fr = new FileReader(archivo);
             BufferedReader br = new BufferedReader(fr);
             String linea;
